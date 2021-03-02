@@ -23,7 +23,7 @@ public class MaximumPath {
     private List<Integer> maxPath(int lineIndex, int position) {
 
         List<Integer> bestPossiblePath = new ArrayList<>();
-        bestPossiblePath.add(pyramid.getElement(lineIndex, position));
+        bestPossiblePath.add(pyramid.getElement(lineIndex, position).value);
 
         if(lineIndex >= pyramid.getHeight()-1) return bestPossiblePath;
 

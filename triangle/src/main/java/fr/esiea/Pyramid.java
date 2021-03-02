@@ -27,7 +27,7 @@ public class Pyramid {
         return pyramid.size();
     }
 
-    public Integer getElement(int lineIndex, int position) {
+    public Element getElement(int lineIndex, int position) {
         return pyramid.get(lineIndex).getElement(position);
     }
 }
